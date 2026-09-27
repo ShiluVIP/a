@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#087cff">
+<title>ShiluVIP | IPA Store</title>
+<style>
+:root{--blue:#087cff;--blue2:#00b7ff;--bg:#05070b;--card:#0b1018;--line:#172231;--text:#f7fbff;--muted:#9aa8b8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -10%,#09213d 0,#05070b 45%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif}
+a{text-decoration:none;color:inherit}.wrap{max-width:1100px;margin:auto;padding:18px}
+header{position:sticky;top:0;z-index:20;background:rgba(5,7,11,.82);backdrop-filter:blur(16px);border-bottom:1px solid #142031}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-weight:900}.brand img{width:46px;height:46px;border-radius:14px;object-fit:cover;border:1px solid #2b9cff}.brand span{background:linear-gradient(90deg,#fff,var(--blue2));-webkit-background-clip:text;color:transparent;font-size:20px}
+nav{display:flex;gap:8px;flex-wrap:wrap}nav a{padding:9px 12px;color:#c7d4e2;border-radius:10px;font-size:14px}nav a:hover{background:#0e1824;color:#fff}
+.hero{padding:48px 0 28px;text-align:center}.hero img{width:min(270px,70vw);aspect-ratio:1;object-fit:cover;border-radius:34px;border:1px solid #203044;box-shadow:0 0 60px #0077ff22}.badge{display:inline-block;margin-top:20px;padding:7px 12px;border:1px solid #147fe855;border-radius:999px;color:#62c5ff;background:#087cff0d;font-size:13px}.hero h1{font-size:clamp(35px,7vw,70px);margin:12px 0 5px;font-weight:1000;letter-spacing:-2px}.hero h1 span{color:var(--blue)}.hero p{color:var(--muted);max-width:650px;margin:0 auto 22px;line-height:1.9}
+.btns{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.btn{padding:13px 20px;border-radius:13px;border:1px solid #1c3148;background:#0b121b;font-weight:800}.primary{background:linear-gradient(135deg,var(--blue),#0061d7);border-color:#2192ff;box-shadow:0 8px 30px #0077ff2a}.btn:hover{transform:translateY(-1px)}
+section{padding:30px 0}.title{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:16px}.title h2{margin:0;font-size:25px}.title p{margin:0;color:var(--muted);font-size:13px}
+.card{background:linear-gradient(180deg,#0b121b,#080c12);border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:0 12px 45px #0006}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.feature strong{display:block;margin-bottom:7px}.feature span{color:var(--muted);font-size:14px;line-height:1.7}
+.price{display:grid;grid-template-columns:1.5fr .7fr;gap:18px;align-items:center}.price h3{font-size:28px;margin:0 0 8px}.price p{color:var(--muted);line-height:1.8}.amount{font-size:44px;font-weight:1000;color:#fff}.amount small{font-size:16px;color:var(--muted)}
+.list{display:grid;gap:10px;margin:16px 0 0;padding:0;list-style:none}.list li{padding:12px 14px;background:#080d14;border:1px solid #14202e;border-radius:12px;color:#dce6ef}.list li:before{content:"✓";color:#20a9ff;font-weight:900;margin-left:9px}
+.sources{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.source{padding:16px;border-radius:16px;background:#080d14;border:1px solid var(--line)}.source b{display:block;margin-bottom:7px}.source small{color:#718196;word-break:break-all}
+.games{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.game{min-height:140px;display:flex;flex-direction:column;justify-content:space-between}.game .icon{font-size:30px}.game button{width:100%;padding:11px;border:0;border-radius:11px;background:#0b78f2;color:#fff;font-weight:900;cursor:pointer}
+.socials{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.social{display:flex;align-items:center;gap:12px;padding:16px}.avatar{width:54px;height:54px;border-radius:50%;object-fit:cover;border:2px solid var(--blue)}.social span{color:var(--muted);font-size:13px}
+footer{text-align:center;padding:35px 0 45px;color:#718196;border-top:1px solid var(--line);margin-top:20px}
+@media(max-width:750px){.features,.sources,.games,.socials{grid-template-columns:1fr}.price{grid-template-columns:1fr}.amount{font-size:38px}.nav{align-items:flex-start}.nav nav{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#"><img src="logo.jpg" alt="ShiluVIP"><span>ShiluVIP</span></a>
+<nav><a href="#cert">الشهادة</a><a href="#games">الألعاب</a><a href="#social">التواصل</a></nav>
+</div></header>
+
+<main class="wrap">
+<section class="hero">
+<img src="logo.jpg" alt="ShiluVIP IPA Store">
+<div class="badge">IPA STORE • iPhone & iPad</div>
+<h1>Shilu<span>VIP</span></h1>
+<p>متجر احترافي لتطبيقات وألعاب IPA. تصفح المحتوى، تواصل مع المطور، وخلك مميز ويانه.</p>
+<div class="btns"><a class="btn primary" href="#games">تصفح الألعاب</a><a class="btn" href="https://t.me/zzsoa" target="_blank">تواصل مع المطور</a></div>
+</section>
+
+<section id="cert">
+<div class="title"><div><h2>⭐ شهادة سنوية</h2><p>اشترك الآن وخليك مميز ويانه</p></div></div>
+<div class="card price">
+<div>
+<h3>شهادة لمدة سنة كاملة</h3>
+<p>ضمان 30 يوم لحل مشاكل التحميل كافة، مع تحميل مباشر وتطبيقات التوقيع مثل ESign وKSign وغيرها، حسب توفر الخدمة.</p>
+<ul class="list">
+<li>صلاحية كاملة لمدة سنة</li><li>ضمان 30 يوم لمشاكل التحميل</li><li>تحميل مباشر وتطبيقات توقيع</li><li>يجي مع كل شهادة هاك بليارد</li>
+</ul>
+</div>
+<div style="text-align:center">
+<div class="amount">$10 <small>/ سنة</small></div>
+<a class="btn primary" style="display:block;margin-top:12px" href="https://t.me/zzsoa" target="_blank">اشترك الآن — تواصل مع المطور</a>
+</div>
+</div>
+</section>
+
+<section>
+<div class="title"><div><h2>👨‍💻 المطور</h2><p>الدعم والتواصل</p></div></div>
+<div class="card">
+<div style="display:flex;align-items:center;gap:15px">
+<img src="developer.jpg" class="avatar" alt="المطور">
+<div><b style="font-size:18px">@zzsoa</b><div style="color:var(--muted);margin-top:4px">تواصل مع المطور عبر Telegram</div></div>
+</div>
+<a class="btn primary" style="display:inline-block;margin-top:16px" href="https://t.me/zzsoa" target="_blank">فتح حساب المطور</a>
+</div>
+</section>
+
+<section id="games">
+<div class="title"><div><h2>🎮 الألعاب</h2><p>مصادر الألعاب والتطبيقات</p></div></div>
+<div class="sources">
+<a class="source" href="https://yourwebsite.com/apps.json" target="_blank"><b>المصدر الأول</b><small>yourwebsite.com/apps.json</small></a>
+<a class="source" href="https://raw.githubusercontent.com/swagkage/swagkage.github.io/main/repos.json" target="_blank"><b>Swagkage</b><small>GitHub repos.json</small></a>
+<a class="source" href="https://wuxu1.github.io/wuxu1/apps.json" target="_blank"><b>Wuxu1</b><small>wuxu1.github.io/apps.json</small></a>
+</div>
+<div class="games" style="margin-top:12px">
+<div class="card game"><div><div class="icon">🎮</div><b>الألعاب والتطبيقات</b><p style="color:var(--muted);font-size:13px">تصفح مصادر IPA المضافة للموقع.</p></div><a href="https://yourwebsite.com/apps.json" target="_blank"><button>فتح المصدر</button></a></div>
+<div class="card game"><div><div class="icon">🕹️</div><b>Swagkage</b><p style="color:var(--muted);font-size:13px">مستودع التطبيقات والألعاب.</p></div><a href="https://raw.githubusercontent.com/swagkage/swagkage.github.io/main/repos.json" target="_blank"><button>فتح المصدر</button></a></div>
+<div class="card game"><div><div class="icon">🎯</div><b>Wuxu1</b><p style="color:var(--muted);font-size:13px">مصدر إضافي للتطبيقات والألعاب.</p></div><a href="https://wuxu1.github.io/wuxu1/apps.json" target="_blank"><button>فتح المصدر</button></a></div>
+</div>
+</section>
+
+<section id="social">
+<div class="title"><div><h2>📱 مواقع التواصل والسوشيال ميديا</h2><p>تابع ShiluVIP وتواصل معنا</p></div></div>
+<div class="socials">
+<a class="card social" href="https://t.me/ShiluVIP" target="_blank"><span style="font-size:28px">✈️</span><div><b>@ShiluVIP</b><span>قناة المطور على Telegram</span></div></a>
+<a class="card social" href="https://t.me/zzsoa" target="_blank"><img src="developer.jpg" class="avatar"><div><b>@zzsoa</b><span>حساب المطور</span></div></a>
+<a class="card social" href="#games"><span style="font-size:28px">🎮</span><div><b>قسم الألعاب</b><span>اذهب إلى الألعاب والمصادر</span></div></a>
+</div>
+</section>
+</main>
+<footer>© 2026 ShiluVIP • IPA Store</footer>
+</body>
+</html>
